@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 11,
+  "bottomRow": 38,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -11,9 +11,6 @@
     },
     {
       "key": "borderRadius"
-    },
-    {
-      "key": "text"
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
@@ -33,7 +30,7 @@
   "mobileRightColumn": 31,
   "mobileTopRow": 55,
   "needsErrorInfo": false,
-  "originalBottomRow": 6,
+  "originalBottomRow": 74,
   "originalTopRow": 2,
   "overflow": "NONE",
   "parentColumnSpace": 8.03125,
@@ -41,9 +38,9 @@
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 42,
+  "rightColumn": 62,
   "shouldTruncate": false,
-  "text": "{{ appsmith.store.alerts.map(a => a.timestamp + \" — \" + a.message).join(\"\\n\") }}\n",
+  "text": "🚨 Delay detected\n\nDriver: Mike Johnson  \nLocation: Oshawa  \nCause: Peak-hour 401 congestion \n\nAction: SOP triggered (Notify Dispatch)\n",
   "textAlign": "LEFT",
   "textColor": "#231F20",
   "topRow": 2,
