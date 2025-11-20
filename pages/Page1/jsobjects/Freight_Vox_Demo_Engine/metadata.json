@@ -1,0 +1,16 @@
+{
+  "gitSyncId": "691f33f9c974f4362023db80_0c82cf26-4a8b-462d-860c-2806d7c2d0eb",
+  "id": "Page1_Freight_Vox_Demo_Engine",
+  "unpublishedCollection": {
+    "name": "Freight_Vox_Demo_Engine",
+    "pageId": "Page1",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "alerts",
+        "value": "[]"
+      }
+    ]
+  }
+}
